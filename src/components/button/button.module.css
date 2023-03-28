@@ -1,0 +1,50 @@
+.button {
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
+}
+
+.primary {
+    width: 100%;
+    color: white;
+    background-color: brown;
+    padding: 8px 16px;
+    border: 1px solid brown;
+
+}
+.primary:hover {
+    opacity: 0.9;
+}
+
+.outline {
+    width: 100%;
+    color: brown;
+    background-color: white;
+    padding: 8px 16px;
+    border: 1px solid brown;
+}
+
+.outline:hover{
+    opacity: 0.9;
+}
+
+.loading {
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+    color: black;
+    padding: 26px 30px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.loading:hover{
+    opacity: 0.9;
+}
